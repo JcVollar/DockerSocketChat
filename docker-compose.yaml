@@ -1,0 +1,11 @@
+version: '3'
+services:
+  myservice:
+    image: socket_chat
+    container_name: socket_chat
+    ports:
+      - "49160:3000"
+    volumes:
+      - "C:/Users/jcvol/Desktop/Projects/DockerSocketChat:/usr/src/app"
+      - "/usr/src/app/node_modules"
+    restart: unless-stopped

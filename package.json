@@ -1,0 +1,17 @@
+{
+  "name": "docker_socket_app",
+  "version": "1.0.0",
+  "description": "Socket.io on Docker",
+  "author": "Jon Christopher Vollar",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
